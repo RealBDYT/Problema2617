@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    int m;
+
+    cout<<"dimensiunile x, y"<<endl;
+    cin>>n;
+    cin>>m;
+
+    //HABAR NAM CE INSEAMNA 1LL
+
+    cout<<"Rezultatul"<<endl;
+    cout<<(n - 1) + 1LL * n * (m - 1)<<endl;
+
+    return 0;
+}
